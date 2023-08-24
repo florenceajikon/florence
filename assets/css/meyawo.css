@@ -12149,6 +12149,88 @@ pre .code {
   background: #a59cca;
 }
 
+.text-center {
+  text-align: center !important;
+}
+@media (min-width: 768px)
+.container {
+  max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+  max-width: 540px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+:root {
+  --blue: #1e549f;
+  --indigo: #695aa6;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #ec185d;
+  --orange: #ff6d02;
+  --yellow: #ffc107;
+  --green: #1bb74f;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #393e46;
+  --primary: #695aa6;
+  --secondary: #393e46;
+  --success: #1bb74f;
+  --info: #17a2b8;
+  --warning: #ff6d02;
+  --danger: #ec185d;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Open Sans", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+::selection {
+  background: #695aa6;
+  color: white;
+}
+
 @media (max-width: 991.98px) {
   .header {
     background-size: cover;
